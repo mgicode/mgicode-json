@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<project
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+        xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>mgicode-json</artifactId>
+    <name>mgicode-json</name>
+    <groupId>com.mgicode</groupId>
+    <version>1.0.5</version>
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/CallThink/Tools</url>
+        <connection>https://github.com/CallThink/Tools.git</connection>
+        <developerConnection>https://github.com/CallThink/Tools</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <name>pengrk</name>
+            <email>546711211 @qq.com</email>
+            <url>https://github.com/mgicode</url>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>ognl</groupId>
+            <artifactId>ognl</artifactId>
+            <version>3.1.12</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
