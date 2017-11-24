@@ -4,8 +4,15 @@ JSON是一种轻量级的数据交换格式,易于人阅读和编写,同时也�
 
 mgicode-json是可配置表达式的JSON格式转换工具，通过配置表达式的方式来进行JSON格式转换，只要符合表达式的规则的属性可以进行JSON转换，另外可配置表达式还可能对实体属性名进行批量的配置变换。这样通过可配置表达式只要简单地制定规则，就可以过滤不需要传输的数据，直接进行命名转换，使用JSON转换更为方便
 
+## maven中包含
 
-
+```
+<dependency>
+			<groupId>com.mgicode</groupId>
+			<artifactId>mgicode-json</artifactId>
+			<version>1.0.5</version>
+		</dependency>
+```
 ## 核心类图
 
 ![logo](https://github.com/mgicode/mgicode-json/blob/master/pic/mgicodejson.png)
